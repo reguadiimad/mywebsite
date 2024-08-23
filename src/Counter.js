@@ -7,6 +7,6 @@ export default function Counter(){
     const dispatch = useDispatch()
 
     return(<>
-        <h1>djd</h1>
+        <h1>djkjbg</h1>
     </>)
 }
