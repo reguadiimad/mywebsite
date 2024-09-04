@@ -1,12 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import Counter from './Counter';
+import AddPerosn from "./components/AddPerson";
 
 function App() {
   return (
-    <div className="App">
-     <Counter></Counter>
-    </div>
+    <>
+      <div className="w-full bg-blue-500 shadow-xl flex justify-center items-center p-5">
+        <h1 className="font-bold text-xl text-white">Person App</h1>
+      </div>
+      <AddPerosn/>
+    </>
+    
   );
 }
 
